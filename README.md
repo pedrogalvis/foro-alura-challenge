@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗣️ Foro Hub
+# 🗣️ Foro Hub - Alura - Challenge - G8
 
 ### *Plataforma de discusión y comunicación para la comunidad*
 
@@ -128,8 +128,8 @@ src/
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/Orliluq/ForoHub.git
-   cd ForoHub
+  [ git clone (https://github.com/pedrogalvis/foro-alura-challenge)
+ 
    ```
 
 2. **Instalar dependencias**
@@ -155,7 +155,7 @@ src/
 ### 🗄️ Base de Datos
 
 <div align="center">
-<img src="https://github.com/Orliluq/ForoHub/assets/122529721/53acb33d-6597-4700-822e-b87425f69383" alt="Database Schema" width="500"/>
+<img src="(https://github.com/pedrogalvis/foro-alura-challenge)" alt="Database Schema" width="500"/>
 </div>
 
 #### H2 (Desarrollo)
@@ -169,7 +169,7 @@ spring.h2.console.enabled=true
 #### MySQL (Producción)
 ```properties
 # application-prod.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/forohub
+spring.datasource.url=jdbc:mysql://localhost:3306/foro-alura-challenge
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
@@ -193,8 +193,8 @@ jwt.expiration=86400000
 **Request:**
 ```json
 {
-  "username": "usuario@email.com",
-  "password": "contraseña123"
+  "username": "user@gmail.com",
+  "password": "123"
 }
 ```
 
@@ -225,7 +225,7 @@ Authorization: Bearer {token}
     {
       "id": 1,
       "username": "usuario1",
-      "email": "usuario1@email.com",
+      "email": "user@gmail.com",
       "createdAt": "2024-07-01T10:00:00Z"
     }
   ],
@@ -334,14 +334,6 @@ http://localhost:8080/swagger-ui/index.html
 - 📚 Actualiza la documentación si es necesario
 - 🐛 Reporta bugs a través de Issues
 
-### 👥 Colaboradores
-
-<div align="center">
-
-[![Contributors](https://contrib.rocks/image?repo=Orliluq/ForoHub)](https://github.com/Orliluq/ForoHub/graphs/contributors)
-
-</div>
-
 ---
 
 ## 📄 Licencia
@@ -349,24 +341,13 @@ http://localhost:8080/swagger-ui/index.html
 Este proyecto está licenciado bajo la **Licencia MIT** - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ```
-MIT License
-
-Copyright (c) 2024 ForoHub Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
-```
-
 ---
 
 <div align="center">
 
 ### 💖 ¡Gracias por usar Foro Hub!
 
-**[⭐ Dale una estrella](https://github.com/Orliluq/ForoHub)** | **[🐛 Reportar Bug](https://github.com/Orliluq/ForoHub/issues)** | **[💡 Solicitar Feature](https://github.com/Orliluq/ForoHub/issues)**
+**[⭐ Dale una estrella](https://github.com/pedrogalvis/foro-alura-challenge/)** | **[🐛 Reportar Bug](https://github.com/pedrogalvis/foro-alura-challenge/)** | **[💡 Solicitar Feature](https://github.com/pedrogalvis/foro-alura-challenge/)**
 
 ---
 
